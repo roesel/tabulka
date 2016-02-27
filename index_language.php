@@ -31,7 +31,7 @@
       <div id="menubar">
         <ul id="menu">
           <!-- put class="current" in the li tag for the selected page - to highlight which page you're on 
-          <li ><a href="index.html"><?php print($lang["menu_home"]); ?></a></li>-->
+          <li ><a href="index.html"></a></li>-->
           <li<?php print($lang["cs_current"]); ?>><a href="../cs/"><?php print($lang["menu_cs"]); ?></a></li>
           <li<?php print($lang["en_current"]); ?>><a href="../en/"><?php print($lang["menu_en"]); ?></a></li>
           <li<?php print($lang["sk_current"]); ?>><a href="../sk/"><?php print($lang["menu_sk"]); ?></a></li>
